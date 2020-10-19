@@ -30,7 +30,7 @@ const Image = ({ from }) => {
     return <div>Picture not found</div>
   }
 
-  return <Img fluid={from=="header" ? `quiz/${data.placeholderImage.childImageSharp.fluid}` : `${data.placeholderImage.childImageSharp.fluid}`} />
+  return <Img fluid={from=="header1" ? `quiz/${data.placeholderImage.childImageSharp.fluid}` : `${data.placeholderImage.childImageSharp.fluid}`} />
 }
 
 export default Image

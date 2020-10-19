@@ -8,8 +8,8 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Cognitive Effects of Poor Indoor Air Quality"
           description="Poor indoor air quality affects people's ability to concentrate and think clearly." />
-    <h1>Quiz Hi from the second page</h1>
-    <p>Quiz Welcome to page 2</p>
+    <h1>Hi from the second page</h1>
+    <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
