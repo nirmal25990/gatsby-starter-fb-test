@@ -1,13 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../../components/layout"
+import Image from "../../components/image"
+import SEO from "../../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Boost Your Health. Change The Air You Breathe."
+          description="Clear Air helps people improve their health and wellness by improving their indoor air quality. Take our free quiz to start living better." />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
