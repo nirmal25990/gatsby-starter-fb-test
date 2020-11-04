@@ -6,9 +6,9 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = ({ location }) => {
-  console.log("process.env.JWT_SECRET string - ", `${process.env.JWT_SECRET}`)
-  console.log("process.env.NO_REPLY_EMAIL string - ", `${process.env.NO_REPLY_EMAIL}`)
-  console.log("process.env.SENDGRID_API_KEY string - ", `${process.env.SENDGRID_API_KEY}`)
+  console.log("process.env.GATSBY_SENDGRID_API_KEY string - ", `${process.env.GATSBY_SENDGRID_API_KEY}`)
+  console.log("process.env.GATSBY_NO_REPLY_EMAIL string - ", `${process.env.GATSBY_NO_REPLY_EMAIL}`)
+  console.log("process.env.GATSBY_JWT_SECRET string - ", `${process.env.GATSBY_JWT_SECRET}`)
   console.log(
     "function url  - ",
     `${location.protocol}//${location.host}${location.pathname}.netlify/functions/send-email`
@@ -47,9 +47,9 @@ const IndexPage = ({ location }) => {
         description="Clear Air helps people improve their health and wellness by improving their indoor air quality. Take our free quiz to start living better."
       />
       <h1>Hi people</h1>
-  <h1>JWT_SECRET {process.env.JWT_SECRET}</h1>
-      <h1>NO_REPLY_EMAIL {process.env.NO_REPLY_EMAIL}</h1>
-      <h1>SENDGRID_API_KEY {process.env.SENDGRID_API_KEY}</h1>
+  <h1>GATSBY_SENDGRID_API_KEY {process.env.GATSBY_SENDGRID_API_KEY}</h1>
+      <h1>GATSBY_NO_REPLY_EMAIL {process.env.GATSBY_NO_REPLY_EMAIL}</h1>
+      <h1>GATSBY_JWT_SECRET {process.env.GATSBY_JWT_SECRET}</h1>
       <p>Welcome to your new Gatsby site.</p>
       <p>Now go build something great.</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
