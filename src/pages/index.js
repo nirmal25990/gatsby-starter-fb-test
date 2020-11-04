@@ -11,7 +11,7 @@ const IndexPage = ({ location }) => {
   console.log("process.env.GATSBY_JWT_SECRET string - ", `${process.env.GATSBY_JWT_SECRET}`)
   console.log(
     "function url  - ",
-    `${location.protocol}//${location.host}${location.pathname}.netlify/functions/send-email`
+    `${location.protocol}//${location.host}/.netlify/functions/send-email`
   )
 
   const testEmail = () => {
