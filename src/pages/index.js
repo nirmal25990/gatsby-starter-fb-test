@@ -5,8 +5,9 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = () => {
+  console.log("process.env.JWT_SECRET string - " , `${process.env.JWT_SECRET}`)
+  return <Layout>
     <SEO title="Boost Your Health. Change The Air You Breathe."
           description="Clear Air helps people improve their health and wellness by improving their indoor air quality. Take our free quiz to start living better." />
     <h1>Hi people</h1>
@@ -18,6 +19,6 @@ const IndexPage = () => (
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
-)
+}
 
 export default IndexPage
