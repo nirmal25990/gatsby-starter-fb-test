@@ -34,7 +34,7 @@ const IndexPage = ({ location }) => {
     }
 
     fetch(
-      `${location.protocol}//${location.host}${location.pathname}.netlify/functions/send-email`,
+      `${location.protocol}//${location.host}/.netlify/functions/send-email`,
       requestOptions
     )
       .then(response => {
