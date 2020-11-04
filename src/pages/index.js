@@ -6,7 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = ({ location }) => {
-  console.log("process.env.JWT_SECRET string - ", `${process.env.JWT_SECRET.replace(/\\n/gm, '\n')}`)
+  console.log("process.env.JWT_SECRET string - ", `${process.env.JWT_SECRET}`)
   console.log("process.env.NO_REPLY_EMAIL string - ", `${process.env.NO_REPLY_EMAIL}`)
   console.log("process.env.SENDGRID_API_KEY string - ", `${process.env.SENDGRID_API_KEY}`)
   console.log(
