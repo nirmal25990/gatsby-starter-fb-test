@@ -22,7 +22,7 @@ const IndexPage = ({ location }) => {
     var raw = JSON.stringify({
       to: "nirmal25990@gmail.com",
       from: "Clear Air<noreply@clearair.io>",
-      subject: "Welcome to Clear Air",
+      subject: "test Welcome to Clear Air",
       html: `<strong>Just a test email ${name}</strong>`,
     })
 
