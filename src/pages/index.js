@@ -37,7 +37,9 @@ const IndexPage = ({ location }) => {
       `${location.protocol}//${location.host}${location.pathname}.netlify/functions/send-email`,
       requestOptions
     )
-      .then(response => console.log("response - ", response))
+      .then(response => {
+        console.log("response - ", response)
+      })
       .catch(error => console.log("send email error", error))
   }
   return (
